@@ -18,12 +18,12 @@ class _MainCustomPageState extends State<MainCustomPage> {
 
   @override
   Widget build(BuildContext context) {
-    List pages = const [
+    List<Widget> pages = [
       Newsfeed(),
       FriendsPage(),
       ReelsPage(),
       MarketplacePage(),
-      NotificationsPage(),
+      NotificationPage(), 
       MenuPage(),
     ];
 
